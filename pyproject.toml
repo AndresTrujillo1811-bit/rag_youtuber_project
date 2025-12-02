@@ -1,0 +1,14 @@
+[project]
+name = "rag-youtuber-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "azure-functions>=1.24.0",
+    "fastapi>=0.123.4",
+    "google-generativeai>=0.8.5",
+    "lancedb>=0.25.3",
+    "pydantic-ai>=1.25.1",
+    "uvicorn>=0.38.0",
+]

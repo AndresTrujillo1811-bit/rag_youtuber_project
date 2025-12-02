@@ -4,3 +4,9 @@ google-generativeai
 lancedb
 pydantic-ai
 uvicorn
+pandas
+streamlit 
+markdown
+pydantic
+numpy 
+python-dotenv

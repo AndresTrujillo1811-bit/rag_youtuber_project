@@ -1,1 +1,1 @@
-# rag_youtuber_project
+# RAG lab - The Youtuber

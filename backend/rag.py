@@ -25,7 +25,6 @@ rag_agent = Agent(
 @rag_agent.tool_plain
 def retieve_docs(query: str, top_results=3) -> str:
     results = vector_db["transcripts"].search(query=query).limit(top_results).to_list() # Retrieving top results from agent
-    top_results = results[0]
     return f"""
-    Content: {top_results["transcripts"]}
+    Content: {results[0]["content"]}
     """

@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from backend.data_models import Prompt
 from backend.rag import rag_agent
 
-
 app = FastAPI()
 
 @app.post("/rag/query")

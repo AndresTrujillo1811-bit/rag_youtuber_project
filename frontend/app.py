@@ -1,6 +1,8 @@
 import streamlit as st
 import requests
+from dotenv import load_dotenv
 
+load_dotenv()
 url = "http://127.0.0.1:8000/rag/query"
 
 def main_layout():

@@ -59,7 +59,7 @@ The goal with this project is to improve the learning experience by using the pr
 
 # 4. Opening frontend app in Streamlit 
 
-- Run in the frontend folder from your project your Streamlit frontend app to the interacte with the RAGtuber chatbot. 
+- Run in the frontend folder from your project your Streamlit frontend app to interacte with the RAGtuber chatbot. 
 
         cd frontend
         uv run streamlit run app.py

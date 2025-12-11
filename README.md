@@ -67,3 +67,21 @@ The goal with this project is to improve the learning experience by using the pr
 A insight how it looks 
 
 <img src = "assets/frontend_rag.png" width = 500>
+
+
+# 5. Deployment to Azure through VSCode (Optional)
+
+- This step is optional if you want to deploy your FastAPI to Azure. First you need to install Azure Functions on VSCode 
+  
+<img src = "assets/azure_functions_install.png" width=500>
+
+- After done that, click on create function app in Azure
+
+<img src = "assets/create_function_app.png" width=500>
+
+
+- Enter a name for the function app, choose the location where you are, select Python 3.12 or the version you're using now, and then choose managed identity
+
+- After done that you go into Azure and see that is deployed
+  
+<img src = "assets/deployed_function.png" width=500>  

@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-url = "http://127.0.0.1:7071/rag/query"
+url = "http://127.0.0.1:8000/rag/query"
 
 def main_layout():
     st.markdown("# RAGtuber")

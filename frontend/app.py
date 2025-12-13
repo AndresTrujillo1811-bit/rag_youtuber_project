@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-url = f"https://ragtuber.azurewebsites.net/rag/query?code={os.getenv('FUNCTION_APP_API')}"
+url = f"https://ragtuber.azurewebsites.net/rag/query?code={os.getenv('API_KEY')}"
 
 def main_layout():
     st.markdown("# RAGtuber")

@@ -1,9 +1,10 @@
 import streamlit as st
 import requests
+import os
 from dotenv import load_dotenv
 
 load_dotenv()
-url = "http://127.0.0.1:8000/rag/query"
+url = f"https://ragtuber.azurewebsites.net/rag/query?code={os.getenv('FUNCTION_APP_API')}"
 
 def main_layout():
     st.markdown("# RAGtuber")

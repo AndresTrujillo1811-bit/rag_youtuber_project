@@ -1,7 +1,7 @@
 # RAG lab - The Youtuber
 
 
-This project is about to create a RAG chatbot that answer questions about Data Engineering based on the youtuber transcripts who teaches Data Engineering. This project uses PydanticAI, LanceDB, FastAPI & Streamlit.
+This is a AI engineering project that is about to create a RAG chatbot that answer questions about Data Engineering based on the youtuber transcripts who teaches Data Engineering. This project uses PydanticAI, LanceDB, FastAPI & Streamlit.
 
 It allows you to:
 

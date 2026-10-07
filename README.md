@@ -80,6 +80,10 @@ A insight how it looks
 <img src = "assets/create_function_app.png" width=500>
 
 
+# Video presentation
+[Watch the project video](https://www.youtube.com/watch?v=4QcfnjhgN1s)
+
+
 - Enter a name for the function app, choose the location where you are, select Python 3.12 or the version you're using now, and then choose managed identity
 
 - After done that you go into Azure and see that is deployed
